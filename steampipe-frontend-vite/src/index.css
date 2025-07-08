@@ -1,0 +1,35 @@
+/* Reset and base styles */
+* {
+  box-sizing: border-box;
+}
+
+html {
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  min-width: 320px;
+  min-height: 100vh;
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+}
+
+/* Root container should fill the viewport */
+#root {
+  min-height: 100vh;
+  width: 100%;
+}
+
+/* Remove default button styles that conflict with Material-UI */
+button {
+  font-family: inherit;
+}
+
+/* Ensure links inherit theme colors */
+a {
+  text-decoration: inherit;
+}

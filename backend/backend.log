@@ -1,0 +1,389 @@
+Backend keypair: F1Xf5PsnMhFqNrNmFcET9qQDyUA57Crbe3DmWthHiQ7n
+🚀 SteamPipe Backend running on http://localhost:3001
+📊 Health check: http://localhost:3001/health
+🔗 CORS enabled for: http://localhost:5173
+🎮 Steam OpenID auth requested for wallet: test123
+🔗 Redirecting to Steam OpenID: https://steamcommunity.com/openid/login?openid.ns=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0&openid.mode=checkid_setup&openid.return_to=http%3A%2F%2Flocalhost%3A3001%2Fapi%2Fauth%2Fsteam%2Freturn%3Fwallet%3Dtest123&openid.realm=http%3A%2F%2Flocalhost%3A3001&openid.identity=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0%2Fidentifier_select&openid.claimed_id=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0%2Fidentifier_select
+User profile requested for wallet: production-test
+✅ Returning user profile: {
+  wallet: 'production-test',
+  username: 'User_producti',
+  email: null,
+  steamId: null,
+  createdAt: '2025-07-06T07:51:57.775Z',
+  lastLogin: '2025-07-06T07:51:57.775Z',
+  totalTrades: 0,
+  totalVolume: 0
+}
+User profile requested for wallet: 8YUYRpzgKmMkdYwSP9pFu8fULvYvHRhUZK7mLRLYDPT8
+✅ Returning user profile: {
+  wallet: '8YUYRpzgKmMkdYwSP9pFu8fULvYvHRhUZK7mLRLYDPT8',
+  username: 'User_8YUYRpzg',
+  email: null,
+  steamId: null,
+  createdAt: '2025-07-06T07:57:08.485Z',
+  lastLogin: '2025-07-06T07:57:08.485Z',
+  totalTrades: 0,
+  totalVolume: 0
+}
+User profile requested for wallet: 8YUYRpzgKmMkdYwSP9pFu8fULvYvHRhUZK7mLRLYDPT8
+✅ Returning user profile: {
+  wallet: '8YUYRpzgKmMkdYwSP9pFu8fULvYvHRhUZK7mLRLYDPT8',
+  username: 'User_8YUYRpzg',
+  email: null,
+  steamId: null,
+  createdAt: '2025-07-06T07:57:08.485Z',
+  lastLogin: '2025-07-06T07:57:08.485Z',
+  totalTrades: 0,
+  totalVolume: 0
+}
+🎮 Steam OpenID auth requested for wallet: 8YUYRpzgKmMkdYwSP9pFu8fULvYvHRhUZK7mLRLYDPT8
+🔗 Redirecting to Steam OpenID: https://steamcommunity.com/openid/login?openid.ns=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0&openid.mode=checkid_setup&openid.return_to=http%3A%2F%2Flocalhost%3A3001%2Fapi%2Fauth%2Fsteam%2Freturn%3Fwallet%3D8YUYRpzgKmMkdYwSP9pFu8fULvYvHRhUZK7mLRLYDPT8&openid.realm=http%3A%2F%2Flocalhost%3A3001&openid.identity=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0%2Fidentifier_select&openid.claimed_id=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0%2Fidentifier_select
+🔄 Steam OpenID callback received
+Query params: {
+  wallet: '8YUYRpzgKmMkdYwSP9pFu8fULvYvHRhUZK7mLRLYDPT8',
+  'openid.ns': 'http://specs.openid.net/auth/2.0',
+  'openid.mode': 'id_res',
+  'openid.op_endpoint': 'https://steamcommunity.com/openid/login',
+  'openid.claimed_id': 'https://steamcommunity.com/openid/id/76561198036696408',
+  'openid.identity': 'https://steamcommunity.com/openid/id/76561198036696408',
+  'openid.return_to': 'http://localhost:3001/api/auth/steam/return?wallet=8YUYRpzgKmMkdYwSP9pFu8fULvYvHRhUZK7mLRLYDPT8',
+  'openid.response_nonce': '2025-07-06T07:57:12Z9ddD4VUCYkDd2itTs9JeurtMVHE=',
+  'openid.assoc_handle': '1234567890',
+  'openid.signed': 'signed,op_endpoint,claimed_id,identity,return_to,response_nonce,assoc_handle',
+  'openid.sig': 'UL9IYlCrD5Vwpctn4YDSdeA1FZg='
+}
+✅ Steam OpenID verified successfully for Steam ID: 76561198036696408
+Steam API key not configured, using fallback profile data
+📋 Steam profile retrieved: SteamUser_696408
+✅ Steam account linked successfully for wallet: 8YUYRpzgKmMkdYwSP9pFu8fULvYvHRhUZK7mLRLYDPT8
+User profile requested for wallet: 2Mt5LfwcENPFeNbpXVySqrWVqt5RkaboT9AWGzqG3caP
+✅ Returning user profile: {
+  wallet: '2Mt5LfwcENPFeNbpXVySqrWVqt5RkaboT9AWGzqG3caP',
+  username: 'User_2Mt5Lfwc',
+  email: null,
+  steamId: null,
+  createdAt: '2025-07-06T07:57:17.385Z',
+  lastLogin: '2025-07-06T07:57:17.385Z',
+  totalTrades: 0,
+  totalVolume: 0
+}
+User profile requested for wallet: 2Mt5LfwcENPFeNbpXVySqrWVqt5RkaboT9AWGzqG3caP
+✅ Returning user profile: {
+  wallet: '2Mt5LfwcENPFeNbpXVySqrWVqt5RkaboT9AWGzqG3caP',
+  username: 'User_2Mt5Lfwc',
+  email: null,
+  steamId: null,
+  createdAt: '2025-07-06T07:57:17.385Z',
+  lastLogin: '2025-07-06T07:57:17.385Z',
+  totalTrades: 0,
+  totalVolume: 0
+}
+🎮 Steam OpenID auth requested for wallet: 2Mt5LfwcENPFeNbpXVySqrWVqt5RkaboT9AWGzqG3caP
+🔗 Redirecting to Steam OpenID: https://steamcommunity.com/openid/login?openid.ns=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0&openid.mode=checkid_setup&openid.return_to=http%3A%2F%2Flocalhost%3A3001%2Fapi%2Fauth%2Fsteam%2Freturn%3Fwallet%3D2Mt5LfwcENPFeNbpXVySqrWVqt5RkaboT9AWGzqG3caP&openid.realm=http%3A%2F%2Flocalhost%3A3001&openid.identity=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0%2Fidentifier_select&openid.claimed_id=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0%2Fidentifier_select
+🔄 Steam OpenID callback received
+Query params: {
+  wallet: '2Mt5LfwcENPFeNbpXVySqrWVqt5RkaboT9AWGzqG3caP',
+  'openid.ns': 'http://specs.openid.net/auth/2.0',
+  'openid.mode': 'id_res',
+  'openid.op_endpoint': 'https://steamcommunity.com/openid/login',
+  'openid.claimed_id': 'https://steamcommunity.com/openid/id/76561198036696408',
+  'openid.identity': 'https://steamcommunity.com/openid/id/76561198036696408',
+  'openid.return_to': 'http://localhost:3001/api/auth/steam/return?wallet=2Mt5LfwcENPFeNbpXVySqrWVqt5RkaboT9AWGzqG3caP',
+  'openid.response_nonce': '2025-07-06T07:57:23Zx2Zks1+4nta0EBOFzJHoDR6qyGI=',
+  'openid.assoc_handle': '1234567890',
+  'openid.signed': 'signed,op_endpoint,claimed_id,identity,return_to,response_nonce,assoc_handle',
+  'openid.sig': 'jZNSzQQMmmdGG6h6urfq+apGFdw='
+}
+✅ Steam OpenID verified successfully for Steam ID: 76561198036696408
+Steam API key not configured, using fallback profile data
+📋 Steam profile retrieved: SteamUser_696408
+✅ Steam account linked successfully for wallet: 2Mt5LfwcENPFeNbpXVySqrWVqt5RkaboT9AWGzqG3caP
+User profile requested for wallet: 2Mt5LfwcENPFeNbpXVySqrWVqt5RkaboT9AWGzqG3caP
+✅ Returning user profile: {
+  wallet: '2Mt5LfwcENPFeNbpXVySqrWVqt5RkaboT9AWGzqG3caP',
+  username: 'User_2Mt5Lfwc',
+  email: null,
+  steamId: '76561198036696408',
+  createdAt: '2025-07-06T07:57:17.385Z',
+  lastLogin: '2025-07-06T07:57:23.877Z',
+  totalTrades: 0,
+  totalVolume: 0,
+  steamProfile: {
+    steamid: '76561198036696408',
+    personaname: 'SteamUser_696408',
+    profileurl: 'https://steamcommunity.com/profiles/76561198036696408',
+    avatar: 'https://avatars.steamstatic.com/fe/fea2e6f4fdedcdc7b5c51ad0fa9e8fe8b858c5e_medium.jpg',
+    avatarfull: 'https://avatars.steamstatic.com/fe/fea2e6f4fdedcdc7b5c51ad0fa9e8fe8b858c5e_full.jpg'
+  }
+}
+User profile requested for wallet: 2Mt5LfwcENPFeNbpXVySqrWVqt5RkaboT9AWGzqG3caP
+✅ Returning user profile: {
+  wallet: '2Mt5LfwcENPFeNbpXVySqrWVqt5RkaboT9AWGzqG3caP',
+  username: 'User_2Mt5Lfwc',
+  email: null,
+  steamId: '76561198036696408',
+  createdAt: '2025-07-06T07:57:17.385Z',
+  lastLogin: '2025-07-06T07:57:23.877Z',
+  totalTrades: 0,
+  totalVolume: 0,
+  steamProfile: {
+    steamid: '76561198036696408',
+    personaname: 'SteamUser_696408',
+    profileurl: 'https://steamcommunity.com/profiles/76561198036696408',
+    avatar: 'https://avatars.steamstatic.com/fe/fea2e6f4fdedcdc7b5c51ad0fa9e8fe8b858c5e_medium.jpg',
+    avatarfull: 'https://avatars.steamstatic.com/fe/fea2e6f4fdedcdc7b5c51ad0fa9e8fe8b858c5e_full.jpg'
+  }
+}
+📊 Provider status request
+📊 Provider status request
+User profile requested for wallet: 8YUYRpzgKmMkdYwSP9pFu8fULvYvHRhUZK7mLRLYDPT8
+✅ Returning user profile: {
+  wallet: '8YUYRpzgKmMkdYwSP9pFu8fULvYvHRhUZK7mLRLYDPT8',
+  username: 'User_8YUYRpzg',
+  email: null,
+  steamId: '76561198036696408',
+  createdAt: '2025-07-06T07:57:08.485Z',
+  lastLogin: '2025-07-06T07:57:12.868Z',
+  totalTrades: 0,
+  totalVolume: 0,
+  steamProfile: {
+    steamid: '76561198036696408',
+    personaname: 'SteamUser_696408',
+    profileurl: 'https://steamcommunity.com/profiles/76561198036696408',
+    avatar: 'https://avatars.steamstatic.com/fe/fea2e6f4fdedcdc7b5c51ad0fa9e8fe8b858c5e_medium.jpg',
+    avatarfull: 'https://avatars.steamstatic.com/fe/fea2e6f4fdedcdc7b5c51ad0fa9e8fe8b858c5e_full.jpg'
+  }
+}
+User profile requested for wallet: 8YUYRpzgKmMkdYwSP9pFu8fULvYvHRhUZK7mLRLYDPT8
+✅ Returning user profile: {
+  wallet: '8YUYRpzgKmMkdYwSP9pFu8fULvYvHRhUZK7mLRLYDPT8',
+  username: 'User_8YUYRpzg',
+  email: null,
+  steamId: '76561198036696408',
+  createdAt: '2025-07-06T07:57:08.485Z',
+  lastLogin: '2025-07-06T07:57:12.868Z',
+  totalTrades: 0,
+  totalVolume: 0,
+  steamProfile: {
+    steamid: '76561198036696408',
+    personaname: 'SteamUser_696408',
+    profileurl: 'https://steamcommunity.com/profiles/76561198036696408',
+    avatar: 'https://avatars.steamstatic.com/fe/fea2e6f4fdedcdc7b5c51ad0fa9e8fe8b858c5e_medium.jpg',
+    avatarfull: 'https://avatars.steamstatic.com/fe/fea2e6f4fdedcdc7b5c51ad0fa9e8fe8b858c5e_full.jpg'
+  }
+}
+📊 Provider status request
+📊 Provider status request
+User profile requested for wallet: 8YUYRpzgKmMkdYwSP9pFu8fULvYvHRhUZK7mLRLYDPT8
+✅ Returning user profile: {
+  wallet: '8YUYRpzgKmMkdYwSP9pFu8fULvYvHRhUZK7mLRLYDPT8',
+  username: 'User_8YUYRpzg',
+  email: null,
+  steamId: '76561198036696408',
+  createdAt: '2025-07-06T07:57:08.485Z',
+  lastLogin: '2025-07-06T07:57:12.868Z',
+  totalTrades: 0,
+  totalVolume: 0,
+  steamProfile: {
+    steamid: '76561198036696408',
+    personaname: 'SteamUser_696408',
+    profileurl: 'https://steamcommunity.com/profiles/76561198036696408',
+    avatar: 'https://avatars.steamstatic.com/fe/fea2e6f4fdedcdc7b5c51ad0fa9e8fe8b858c5e_medium.jpg',
+    avatarfull: 'https://avatars.steamstatic.com/fe/fea2e6f4fdedcdc7b5c51ad0fa9e8fe8b858c5e_full.jpg'
+  }
+}
+User profile requested for wallet: 8YUYRpzgKmMkdYwSP9pFu8fULvYvHRhUZK7mLRLYDPT8
+✅ Returning user profile: {
+  wallet: '8YUYRpzgKmMkdYwSP9pFu8fULvYvHRhUZK7mLRLYDPT8',
+  username: 'User_8YUYRpzg',
+  email: null,
+  steamId: '76561198036696408',
+  createdAt: '2025-07-06T07:57:08.485Z',
+  lastLogin: '2025-07-06T07:57:12.868Z',
+  totalTrades: 0,
+  totalVolume: 0,
+  steamProfile: {
+    steamid: '76561198036696408',
+    personaname: 'SteamUser_696408',
+    profileurl: 'https://steamcommunity.com/profiles/76561198036696408',
+    avatar: 'https://avatars.steamstatic.com/fe/fea2e6f4fdedcdc7b5c51ad0fa9e8fe8b858c5e_medium.jpg',
+    avatarfull: 'https://avatars.steamstatic.com/fe/fea2e6f4fdedcdc7b5c51ad0fa9e8fe8b858c5e_full.jpg'
+  }
+}
+User profile requested for wallet: 8YUYRpzgKmMkdYwSP9pFu8fULvYvHRhUZK7mLRLYDPT8
+✅ Returning user profile: {
+  wallet: '8YUYRpzgKmMkdYwSP9pFu8fULvYvHRhUZK7mLRLYDPT8',
+  username: 'User_8YUYRpzg',
+  email: null,
+  steamId: '76561198036696408',
+  createdAt: '2025-07-06T07:57:08.485Z',
+  lastLogin: '2025-07-06T07:57:12.868Z',
+  totalTrades: 0,
+  totalVolume: 0,
+  steamProfile: {
+    steamid: '76561198036696408',
+    personaname: 'SteamUser_696408',
+    profileurl: 'https://steamcommunity.com/profiles/76561198036696408',
+    avatar: 'https://avatars.steamstatic.com/fe/fea2e6f4fdedcdc7b5c51ad0fa9e8fe8b858c5e_medium.jpg',
+    avatarfull: 'https://avatars.steamstatic.com/fe/fea2e6f4fdedcdc7b5c51ad0fa9e8fe8b858c5e_full.jpg'
+  }
+}
+User profile requested for wallet: 8YUYRpzgKmMkdYwSP9pFu8fULvYvHRhUZK7mLRLYDPT8
+✅ Returning user profile: {
+  wallet: '8YUYRpzgKmMkdYwSP9pFu8fULvYvHRhUZK7mLRLYDPT8',
+  username: 'User_8YUYRpzg',
+  email: null,
+  steamId: '76561198036696408',
+  createdAt: '2025-07-06T07:57:08.485Z',
+  lastLogin: '2025-07-06T07:57:12.868Z',
+  totalTrades: 0,
+  totalVolume: 0,
+  steamProfile: {
+    steamid: '76561198036696408',
+    personaname: 'SteamUser_696408',
+    profileurl: 'https://steamcommunity.com/profiles/76561198036696408',
+    avatar: 'https://avatars.steamstatic.com/fe/fea2e6f4fdedcdc7b5c51ad0fa9e8fe8b858c5e_medium.jpg',
+    avatarfull: 'https://avatars.steamstatic.com/fe/fea2e6f4fdedcdc7b5c51ad0fa9e8fe8b858c5e_full.jpg'
+  }
+}
+User profile requested for wallet: 2Mt5LfwcENPFeNbpXVySqrWVqt5RkaboT9AWGzqG3caP
+✅ Returning user profile: {
+  wallet: '2Mt5LfwcENPFeNbpXVySqrWVqt5RkaboT9AWGzqG3caP',
+  username: 'User_2Mt5Lfwc',
+  email: null,
+  steamId: '76561198036696408',
+  createdAt: '2025-07-06T07:57:17.385Z',
+  lastLogin: '2025-07-06T07:57:23.877Z',
+  totalTrades: 0,
+  totalVolume: 0,
+  steamProfile: {
+    steamid: '76561198036696408',
+    personaname: 'SteamUser_696408',
+    profileurl: 'https://steamcommunity.com/profiles/76561198036696408',
+    avatar: 'https://avatars.steamstatic.com/fe/fea2e6f4fdedcdc7b5c51ad0fa9e8fe8b858c5e_medium.jpg',
+    avatarfull: 'https://avatars.steamstatic.com/fe/fea2e6f4fdedcdc7b5c51ad0fa9e8fe8b858c5e_full.jpg'
+  }
+}
+User profile requested for wallet: 2Mt5LfwcENPFeNbpXVySqrWVqt5RkaboT9AWGzqG3caP
+✅ Returning user profile: {
+  wallet: '2Mt5LfwcENPFeNbpXVySqrWVqt5RkaboT9AWGzqG3caP',
+  username: 'User_2Mt5Lfwc',
+  email: null,
+  steamId: '76561198036696408',
+  createdAt: '2025-07-06T07:57:17.385Z',
+  lastLogin: '2025-07-06T07:57:23.877Z',
+  totalTrades: 0,
+  totalVolume: 0,
+  steamProfile: {
+    steamid: '76561198036696408',
+    personaname: 'SteamUser_696408',
+    profileurl: 'https://steamcommunity.com/profiles/76561198036696408',
+    avatar: 'https://avatars.steamstatic.com/fe/fea2e6f4fdedcdc7b5c51ad0fa9e8fe8b858c5e_medium.jpg',
+    avatarfull: 'https://avatars.steamstatic.com/fe/fea2e6f4fdedcdc7b5c51ad0fa9e8fe8b858c5e_full.jpg'
+  }
+}
+🔓 Steam unbind requested for wallet: 2Mt5LfwcENPFeNbpXVySqrWVqt5RkaboT9AWGzqG3caP
+✅ Steam account unbound successfully
+User profile requested for wallet: 2Mt5LfwcENPFeNbpXVySqrWVqt5RkaboT9AWGzqG3caP
+✅ Returning user profile: {
+  wallet: '2Mt5LfwcENPFeNbpXVySqrWVqt5RkaboT9AWGzqG3caP',
+  username: 'User_2Mt5Lfwc',
+  email: null,
+  steamId: null,
+  createdAt: '2025-07-06T07:57:17.385Z',
+  lastLogin: '2025-07-07T05:04:58.196Z',
+  totalTrades: 0,
+  totalVolume: 0,
+  steamProfile: null
+}
+User profile requested for wallet: 8YUYRpzgKmMkdYwSP9pFu8fULvYvHRhUZK7mLRLYDPT8
+✅ Returning user profile: {
+  wallet: '8YUYRpzgKmMkdYwSP9pFu8fULvYvHRhUZK7mLRLYDPT8',
+  username: 'User_8YUYRpzg',
+  email: null,
+  steamId: '76561198036696408',
+  createdAt: '2025-07-06T07:57:08.485Z',
+  lastLogin: '2025-07-06T07:57:12.868Z',
+  totalTrades: 0,
+  totalVolume: 0,
+  steamProfile: {
+    steamid: '76561198036696408',
+    personaname: 'SteamUser_696408',
+    profileurl: 'https://steamcommunity.com/profiles/76561198036696408',
+    avatar: 'https://avatars.steamstatic.com/fe/fea2e6f4fdedcdc7b5c51ad0fa9e8fe8b858c5e_medium.jpg',
+    avatarfull: 'https://avatars.steamstatic.com/fe/fea2e6f4fdedcdc7b5c51ad0fa9e8fe8b858c5e_full.jpg'
+  }
+}
+User profile requested for wallet: 8YUYRpzgKmMkdYwSP9pFu8fULvYvHRhUZK7mLRLYDPT8
+✅ Returning user profile: {
+  wallet: '8YUYRpzgKmMkdYwSP9pFu8fULvYvHRhUZK7mLRLYDPT8',
+  username: 'User_8YUYRpzg',
+  email: null,
+  steamId: '76561198036696408',
+  createdAt: '2025-07-06T07:57:08.485Z',
+  lastLogin: '2025-07-06T07:57:12.868Z',
+  totalTrades: 0,
+  totalVolume: 0,
+  steamProfile: {
+    steamid: '76561198036696408',
+    personaname: 'SteamUser_696408',
+    profileurl: 'https://steamcommunity.com/profiles/76561198036696408',
+    avatar: 'https://avatars.steamstatic.com/fe/fea2e6f4fdedcdc7b5c51ad0fa9e8fe8b858c5e_medium.jpg',
+    avatarfull: 'https://avatars.steamstatic.com/fe/fea2e6f4fdedcdc7b5c51ad0fa9e8fe8b858c5e_full.jpg'
+  }
+}
+User profile requested for wallet: 8YUYRpzgKmMkdYwSP9pFu8fULvYvHRhUZK7mLRLYDPT8
+✅ Returning user profile: {
+  wallet: '8YUYRpzgKmMkdYwSP9pFu8fULvYvHRhUZK7mLRLYDPT8',
+  username: 'User_8YUYRpzg',
+  email: null,
+  steamId: '76561198036696408',
+  createdAt: '2025-07-06T07:57:08.485Z',
+  lastLogin: '2025-07-06T07:57:12.868Z',
+  totalTrades: 0,
+  totalVolume: 0,
+  steamProfile: {
+    steamid: '76561198036696408',
+    personaname: 'SteamUser_696408',
+    profileurl: 'https://steamcommunity.com/profiles/76561198036696408',
+    avatar: 'https://avatars.steamstatic.com/fe/fea2e6f4fdedcdc7b5c51ad0fa9e8fe8b858c5e_medium.jpg',
+    avatarfull: 'https://avatars.steamstatic.com/fe/fea2e6f4fdedcdc7b5c51ad0fa9e8fe8b858c5e_full.jpg'
+  }
+}
+User profile requested for wallet: 8YUYRpzgKmMkdYwSP9pFu8fULvYvHRhUZK7mLRLYDPT8
+✅ Returning user profile: {
+  wallet: '8YUYRpzgKmMkdYwSP9pFu8fULvYvHRhUZK7mLRLYDPT8',
+  username: 'User_8YUYRpzg',
+  email: null,
+  steamId: '76561198036696408',
+  createdAt: '2025-07-06T07:57:08.485Z',
+  lastLogin: '2025-07-06T07:57:12.868Z',
+  totalTrades: 0,
+  totalVolume: 0,
+  steamProfile: {
+    steamid: '76561198036696408',
+    personaname: 'SteamUser_696408',
+    profileurl: 'https://steamcommunity.com/profiles/76561198036696408',
+    avatar: 'https://avatars.steamstatic.com/fe/fea2e6f4fdedcdc7b5c51ad0fa9e8fe8b858c5e_medium.jpg',
+    avatarfull: 'https://avatars.steamstatic.com/fe/fea2e6f4fdedcdc7b5c51ad0fa9e8fe8b858c5e_full.jpg'
+  }
+}
+User profile requested for wallet: 8YUYRpzgKmMkdYwSP9pFu8fULvYvHRhUZK7mLRLYDPT8
+✅ Returning user profile: {
+  wallet: '8YUYRpzgKmMkdYwSP9pFu8fULvYvHRhUZK7mLRLYDPT8',
+  username: 'User_8YUYRpzg',
+  email: null,
+  steamId: '76561198036696408',
+  createdAt: '2025-07-06T07:57:08.485Z',
+  lastLogin: '2025-07-06T07:57:12.868Z',
+  totalTrades: 0,
+  totalVolume: 0,
+  steamProfile: {
+    steamid: '76561198036696408',
+    personaname: 'SteamUser_696408',
+    profileurl: 'https://steamcommunity.com/profiles/76561198036696408',
+    avatar: 'https://avatars.steamstatic.com/fe/fea2e6f4fdedcdc7b5c51ad0fa9e8fe8b858c5e_medium.jpg',
+    avatarfull: 'https://avatars.steamstatic.com/fe/fea2e6f4fdedcdc7b5c51ad0fa9e8fe8b858c5e_full.jpg'
+  }
+}

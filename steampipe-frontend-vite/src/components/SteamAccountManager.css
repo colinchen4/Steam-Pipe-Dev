@@ -1,0 +1,107 @@
+.steam-account-manager {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.account-section,
+.inventory-section,
+.api-section,
+.trade-section,
+.consent-section {
+  margin: 16px 0;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.status-section {
+  display: flex;
+  align-items: center;
+  padding: 12px;
+  background: #f6ffed;
+  border-radius: 4px;
+  border: 1px solid #b7eb8f;
+}
+
+.status-section.warning {
+  background: #fffbe6;
+  border-color: #ffe58f;
+}
+
+.status-section.error {
+  background: #fff2f0;
+  border-color: #ffccc7;
+}
+
+.steam-account-manager .ant-input,
+.steam-account-manager .ant-input-password {
+  flex: 1;
+}
+
+.steam-account-manager .ant-typography {
+  min-width: 120px;
+  margin-right: 8px;
+}
+
+.steam-account-manager .ant-btn {
+  min-width: 80px;
+}
+
+.steam-profile-container {
+  display: flex;
+  align-items: center;
+  padding: 16px;
+  margin-bottom: 16px;
+}
+
+.steam-profile-container img {
+  border-radius: 50%;
+  margin-right: 16px;
+}
+
+.steam-profile-info {
+  flex: 1;
+}
+
+.steam-profile-info h6 {
+  margin: 0;
+  color: #333;
+}
+
+.steam-profile-info p {
+  margin: 4px 0;
+  color: #666;
+}
+
+.steam-profile-info a {
+  color: #1a73e8;
+  text-decoration: none;
+}
+
+.steam-profile-info a:hover {
+  text-decoration: underline;
+}
+
+@media (max-width: 768px) {
+  .steam-account-manager {
+    padding: 16px;
+  }
+
+  .account-section,
+  .inventory-section,
+  .api-section,
+  .trade-section,
+  .consent-section {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .steam-account-manager .ant-typography {
+    margin-bottom: 8px;
+  }
+
+  .steam-account-manager .ant-btn {
+    width: 100%;
+    margin-top: 8px;
+  }
+}

@@ -1,0 +1,19 @@
+<svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <path d="M5.25 14.0625L9.75 18.75H18.75L14.25 14.0625H5.25Z" fill="url(#paint0_linear_solana)"/>
+  <path d="M5.25 9.9375H14.25L18.75 5.25H9.75L5.25 9.9375Z" fill="url(#paint1_linear_solana)"/>
+  <path d="M5.25 12H14.25L18.75 7.3125H9.75L5.25 12Z" fill="url(#paint2_linear_solana)"/>
+  <defs>
+    <linearGradient id="paint0_linear_solana" x1="5.25" y1="16.4062" x2="18.75" y2="16.4062" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#00FFA3"/>
+      <stop offset="1" stop-color="#DC1FFF"/>
+    </linearGradient>
+    <linearGradient id="paint1_linear_solana" x1="5.25" y1="7.59375" x2="18.75" y2="7.59375" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#00FFA3"/>
+      <stop offset="1" stop-color="#DC1FFF"/>
+    </linearGradient>
+    <linearGradient id="paint2_linear_solana" x1="5.25" y1="9.65625" x2="18.75" y2="9.65625" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#00FFA3"/>
+      <stop offset="1" stop-color="#DC1FFF"/>
+    </linearGradient>
+  </defs>
+</svg>
