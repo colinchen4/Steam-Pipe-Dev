@@ -2,9 +2,11 @@
 
 This document outlines the evolution from our current hybrid escrow model to a pure Web3 architecture with wrapped NFTs and no-deposit trading.
 
-## 🎯 Vision: Pure Web3 Trading Platform
+## 🎯 Vision: Hybrid Web3 Trading Platform
 
-Transform SteamPipe into a fully decentralized trading platform where Steam items become wrapped NFTs, eliminating deposits while maintaining security through smart contract automation.
+Transform SteamPipe into a hybrid trading platform that maximizes decentralization where possible while acknowledging Steam's centralized limitations. **[See detailed hybrid design →](./HYBRID-MODEL-DESIGN.md)**
+
+**Philosophy**: "Maximize decentralization where possible, use centralization where necessary"
 
 ## 📋 Current vs Target Architecture
 

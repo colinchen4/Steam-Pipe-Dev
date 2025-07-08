@@ -13,7 +13,7 @@ A hybrid escrow trading platform for CS:GO skins built on Solana blockchain with
 SteamPipe revolutionizes CS:GO skin trading by combining the security of blockchain escrow with the familiarity of Steam trading. 
 
 **Current**: Hybrid architecture with on-chain USDC escrow and off-chain Steam verification.  
-**Future**: Pure Web3 model with wrapped NFTs and no-deposit trading. [See upgrade roadmap →](./WEB3-ARCHITECTURE-UPGRADE.md)
+**Future**: Enhanced hybrid model maximizing Web3 benefits while acknowledging Steam limitations. [See upgrade roadmap →](./HYBRID-MODEL-DESIGN.md)
 
 Our current hybrid architecture ensures:
 
@@ -280,12 +280,12 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 - [ ] Reputation system
 - [ ] Batch trading
 
-### Phase 3: Pure Web3 Evolution 🌟
-- [ ] Wrapped NFT system
-- [ ] No-deposit trading
-- [ ] Wallet-only onboarding
-- [ ] Gasless transactions
-- [ ] **[See detailed roadmap →](./WEB3-ARCHITECTURE-UPGRADE.md)**
+### Phase 3: Hybrid Web3 Evolution 🌟
+- [ ] Enhanced smart contract escrow
+- [ ] Transparent custodial with insurance
+- [ ] Multi-layer verification oracle
+- [ ] Decentralized governance with emergency controls
+- [ ] **[See detailed hybrid design →](./HYBRID-MODEL-DESIGN.md)**
 
 ### Phase 4: Scale & Growth 📋
 - [ ] Mainnet deployment
