@@ -10,7 +10,12 @@ A hybrid escrow trading platform for CS:GO skins built on Solana blockchain with
 
 ## 🎯 Overview
 
-SteamPipe revolutionizes CS:GO skin trading by combining the security of blockchain escrow with the familiarity of Steam trading. Our hybrid architecture ensures:
+SteamPipe revolutionizes CS:GO skin trading by combining the security of blockchain escrow with the familiarity of Steam trading. 
+
+**Current**: Hybrid architecture with on-chain USDC escrow and off-chain Steam verification.  
+**Future**: Pure Web3 model with wrapped NFTs and no-deposit trading. [See upgrade roadmap →](./WEB3-ARCHITECTURE-UPGRADE.md)
+
+Our current hybrid architecture ensures:
 
 - **💰 Secure Funds**: USDC locked in Solana smart contracts
 - **🎮 Steam Integration**: Real item verification via Steam Web API
@@ -275,11 +280,18 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 - [ ] Reputation system
 - [ ] Batch trading
 
-### Phase 3: Scale & Growth 📋
+### Phase 3: Pure Web3 Evolution 🌟
+- [ ] Wrapped NFT system
+- [ ] No-deposit trading
+- [ ] Wallet-only onboarding
+- [ ] Gasless transactions
+- [ ] **[See detailed roadmap →](./WEB3-ARCHITECTURE-UPGRADE.md)**
+
+### Phase 4: Scale & Growth 📋
 - [ ] Mainnet deployment
-- [ ] Performance optimization
-- [ ] Marketing integration
-- [ ] Community features
+- [ ] DeFi integrations
+- [ ] Third-party APIs
+- [ ] Community governance
 
 ---
 

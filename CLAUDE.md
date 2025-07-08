@@ -4,7 +4,13 @@ This file provides guidance to Claude Code (claude.ai/code) when working with co
 
 ## Project Overview
 
-SteamPipe is a decentralized CS:GO skin trading platform built on Solana blockchain. It uses a hybrid escrow architecture where USDC funds are secured on-chain while Steam items are verified off-chain through Steam Web API integration. The platform aggregates real-time pricing from multiple marketplaces (Steam, Buff163, C5Game, Skinport, ECOsteam, UUYP) and provides secure P2P trading with Steam OpenID authentication.
+SteamPipe is a decentralized CS:GO skin trading platform built on Solana blockchain. 
+
+**Current Architecture**: Hybrid escrow model where USDC funds are secured on-chain while Steam items are verified off-chain through Steam Web API integration.
+
+**Future Architecture**: Pure Web3 model with wrapped NFTs representing Steam items, eliminating deposits while maintaining security through smart contract automation. See [WEB3-ARCHITECTURE-UPGRADE.md](./WEB3-ARCHITECTURE-UPGRADE.md) for the complete evolution roadmap.
+
+The platform aggregates real-time pricing from multiple marketplaces (Steam, Buff163, C5Game, Skinport, ECOsteam, UUYP) and provides secure P2P trading with Steam OpenID authentication.
 
 ## Architecture
 
