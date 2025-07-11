@@ -505,8 +505,8 @@ const PriceComparisonDashboard: React.FC = () => {
                       </TableRow>
                     </TableHead>
                     <TableBody>
-                      {priceData.map((item) => (
-                        <TableRow key={item.source} sx={{ 
+                      {priceData.map((item, index) => (
+                        <TableRow key={`${item.source}-${index}`} sx={{ 
                           bgcolor: bestPrice && item.source === bestPrice.source ? 'rgba(76, 175, 80, 0.1)' : 'inherit'
                         }}>
                           <TableCell component="th" scope="row">

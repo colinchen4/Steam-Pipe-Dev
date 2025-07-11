@@ -12,6 +12,9 @@ const morgan = require('morgan');
 const database = require('./config/database');
 const authRoutes = require('./routes/authRoutes');
 const steamRoutes = require('./routes/steamRoutes');
+const priceRoutes = require('./routes/priceRoutes');
+const pricesRoutes = require('./routes/pricesRoutes');
+const userRoutes = require('./routes/userRoutes');
 const steamService = require('./services/steamService');
 
 /**
@@ -203,8 +206,15 @@ class SteamPipeServer {
     // Authentication routes (wallet-first)
     this.app.use('/api/auth', authRoutes);
     
+    // User management routes
+    this.app.use('/api/user', userRoutes);
+    
     // Steam API routes
     this.app.use('/api/steam', steamRoutes);
+    
+    // Price API routes
+    this.app.use('/api/price', priceRoutes);
+    this.app.use('/api/prices', pricesRoutes);
 
     // Root endpoint
     this.app.get('/', (req, res) => {

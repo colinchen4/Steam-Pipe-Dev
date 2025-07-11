@@ -24,7 +24,6 @@ class DatabaseManager {
       socketTimeoutMS: 45000,
       
       // Buffering
-      bufferMaxEntries: 0,
       bufferCommands: false,
       
       // Authentication
